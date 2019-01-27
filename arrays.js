@@ -2,12 +2,12 @@ var chocolateBars= new Array('snickers', 'hundred grand', 'kitkat', 'skittles');
 
 function addElementToBeginningOfArray(array,element){
   [element,...array];
-  array;
+  return array;
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element){
   array.unshift(element);
-  array;
+  return array;
 }
 
 function addElementToEndOfArray(array,element){
